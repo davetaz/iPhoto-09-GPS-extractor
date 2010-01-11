@@ -1,0 +1,17 @@
+Instructions:
+
+1) Export Photos from iPhoto 09 with location information, the file names must be the same as those in iPhoto's library. Export them at the lowest quality to save space, it's the metadata which is important. 
+
+2) Drop the contents of this package in the same director as your exported photo's
+
+3) Edit geotag.php and put your username in the first parameter where it says username. 
+
+4) Browse to your iPhoto library on disk and find the name of the event which all your photo's are tagged as (should be the same as in iPhoto).
+
+5) Execute the following
+
+	php geotag.php "YEAR/My Event" 
+ 
+  where the event corresponds to that from 4.
+
+DONE.
